@@ -1,18 +1,26 @@
+import java.util.Scanner; 
+
 class Main{
-	
-	public static void main(String [] args){
 
-		TeamName tn = new TeamName();
-		tn.teamName = "TheGoats";
-		String teamName = tn.getName();
-		System.out.println("The teams name is: " + teamName);
+	 public static void main(String [] args){
 
-		SetRank sr = new SetRank();
-		int age = Integer.parseInt(sr.setRank("Teams rank is: "));
-		System.out.println(age);
-	 
-	
+	 	String question = "Please type your name ";
+
+	 	String input = name; 
+
+		Scanner scan = new Scanner(System.in);
+		String input = scan.nextLine();
+
+
+		
+
+
+
 
 	}
+
+
+
+
 
 }
